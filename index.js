@@ -7,7 +7,7 @@ function testFunc() {
   return "hi"
 }
 function superbowlWin(arr){
-  for(element of arr){
+  for(let element of arr){
     if(element.result ==="w"){
       return arr.year
     }
