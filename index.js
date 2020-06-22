@@ -8,7 +8,7 @@ function testFunc() {
 }
 function superbowlWin(arr){
   for(let element of arr){
-    if(element.result ==="W"){
+    if(element.result =="W"){
       return arr.year
     }
     alert('nothing like this found')
